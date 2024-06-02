@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #ec0000;
+    color: #000000;
+    padding: 1em 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#about {
+    display: none;
+}
+
+#contact{
+    display:none;
+}
+
+
+
+.main-content {
+    padding: 20px; /* Dodajemo razmak oko sadržaja */
+}
+
+.main-content img {
+    display: block; /* Da bi slike bile blok elementi */
+    margin-top: 20px; /* Margina između slika i teksta */
+}
+.small-image{
+    width:1%;
+    height: 1%;
+}
+.image-container {
+    display: flex; /* Koristimo flexbox za postavljanje slika jednu pored druge */
+}
+
+.image-container img {
+    flex: 1; /* Postavljamo da slike zauzimaju jednaku širinu */
+}
+.mid-image{
+    width: 1%;
+    height: 1%;
+    
+}
+.bruh{
+    width:30%;
+}
